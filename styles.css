@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Titillium Web;
+}
+
+body{
+    background-color: #222831;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navigation a:hover{
+    color: #ff5151;
+}
+
+hr{
+    opacity: 10%;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+}
+
+.arrow{
+    position: absolute;
+    transform: translateX(-5.5rem) translateY(1.5rem);
+}
+
+.heroSup{
+    display: flex;
+    flex-direction: column;
+    gap: 0.rem;
+}
+
+.name{
+    font-size: 3rem;
+    color: #eeee;
+}
+
+.title{
+    font-size: 4rem;
+    color: #ff5151;
+}
+
+.heroBtns{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.Contact{
+    background-color:#ff5151;
+    color: #eeee;
+    border-radius: 24px;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Hi{
+    background-color: rgba(188, 188, 195, 0.5);
+    color: #eeee;
+    border-radius: 24px;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    gap: 0.5rem;
+    backdrop-filter: blur(4px);
+}
+
+.aboutMe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+    gap: 10rem;
+}
+
+.textcontain{
+    display: flex;
+    flex-direction: column;
+}
+
+.texttit{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 2rem;
+}
+
+.aboutname{
+    color: #eeee;
+}
+
+.abouttit{
+    color: #ff5151;
+}
+
+.aboutpar{
+    text-align: justify;
+    color: #eeee;
+    opacity: 0.75;
+}
+
+.light{
+    margin-bottom: 1rem;
+}
+
+.mywork{
+    background-image: url(assets/svg/background1.svg);
+    margin: 5rem 0rem;
+    padding: 10rem 10rem;
+}
+
+.workcotain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    margin: 5rem auto;
+    max-width: 1200px;
+}
+
+.Projecttitle{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 0.5rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.mywork ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mywork li{
+    border-radius: 16px;
+    background-color: rgba(188, 188, 195, 0.5);
+    backdrop-filter: blur(4px);
+    padding: 1rem 2rem;
+}
+
+.mywork li img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    transition: transform 0.2s;
+}
+
+.mywork li :hover{
+    transform: scale(1.5);
+}
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+  }
+  .contactTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+  }
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5rem;
+    gap: 20rem;
+  }
+  .contact h3,
+  .contact a {
+    color: #eeeeee;
+    text-decoration: none;
+  }
+  .emailAndPhone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .socialMedia a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: rgba(57, 62, 70, 0.5);
+    backdrop-filter: blur(4px);
+    padding: 1rem;
+  }
+  .socialMedia img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  footer {
+    color: #eeeeee;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  @media (max-width: 1023px) {
+    header {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .hero {
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+    }
+    .heroimg {
+      width: 400px;
+    }
+    .name,
+    .title {
+      font-size: 2rem;
+    }
+    .arrow {
+      display: none;
+    }
+    .aboutMe {
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 2rem;
+    }
+    .textcontain {
+      align-items: center;
+      margin: 0rem 5rem;
+      gap: 1rem;
+    }
+    .aboutname,
+    .abouttit {
+      font-size: 2rem;
+    }
+    .light {
+      width: 60px;
+    }
+    .aboutimg {
+      width: 400px;
+    }
+    .mywork {
+      padding: 0;
+    }
+    .workcotain {
+      padding: 5rem 0rem;
+      gap: 3rem;
+    }
+    .Projecttitle {
+      margin-left: 1rem;
+    }
+    .mywork ul {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .contactContainer {
+      margin: 10rem 5rem;
+      gap: 2rem;
+    }
+    .contact {
+      flex-direction: column;
+      gap: 1rem;
+      margin-right: 0;
+    }
+  }
