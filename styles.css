@@ -155,7 +155,7 @@ hr{
     justify-content: left;
     gap: 0.5rem;
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
 }
 
 .mywork ul{
@@ -177,6 +177,7 @@ hr{
     height: 200px;
     object-fit: contain;
     transition: transform 0.2s;
+    border-radius: 10px;
 }
 
 .mywork li :hover{
@@ -256,7 +257,7 @@ hr{
       gap: 2rem;
     }
     .heroimg {
-      width: 400px;
+      width: 350px;
     }
     .name,
     .title {
@@ -283,7 +284,7 @@ hr{
       width: 60px;
     }
     .aboutimg {
-      width: 400px;
+      width: 350px;
     }
     .mywork {
       padding: 0;
