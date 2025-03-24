@@ -167,9 +167,9 @@ hr{
 
 .mywork li{
     border-radius: 16px;
-    background-color: rgba(188, 188, 195, 0.5);
+    background-color: rgba(188, 188, 195, 0.03);
     backdrop-filter: blur(4px);
-    padding: 1rem 2rem;
+    padding: 1rem ;
 }
 
 .mywork li img{
@@ -226,6 +226,7 @@ hr{
     justify-content: center;
     gap: 3rem;
   }
+  
   .socialMedia a {
     display: flex;
     align-items: center;
