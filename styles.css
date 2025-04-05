@@ -160,6 +160,8 @@ hr{
 
 .mywork ul{
     display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
     list-style-type: none;
     align-items: center;
     justify-content: space-between;
